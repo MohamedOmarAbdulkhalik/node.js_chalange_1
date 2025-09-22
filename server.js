@@ -1,4 +1,4 @@
-// server.js - النسخة المحدثة
+
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
@@ -58,4 +58,5 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
     console.log(`API endpoint available at: http://localhost:${PORT}/api/ping`);
+
 });
